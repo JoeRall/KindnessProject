@@ -10,7 +10,7 @@ const Routes: NavigationRouteConfigMap = {
   Home: { screen: HomeScreen },
   Main: { screen: MainScreen },
   Login: { screen: Login },
-  AddEditEntry: { screen: AddEditEntry }
+  AddEditEntry: { screen: AddEditEntry },
 }
 
 export default Routes;
