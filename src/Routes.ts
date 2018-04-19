@@ -3,6 +3,7 @@ import { Login } from "./screens/Login";
 import { NavigationRouteConfigMap } from 'react-navigation';
 import AddEditEntry from "./screens/AddEditEntry";
 import HomeScreen from './screens/Home';
+import KindnessPage from './screens/KindnessPage';
 
 
 const Routes: NavigationRouteConfigMap = {
@@ -11,6 +12,7 @@ const Routes: NavigationRouteConfigMap = {
   Main: { screen: MainScreen },
   Login: { screen: Login },
   AddEditEntry: { screen: AddEditEntry },
+  KindnessPage: { screen: KindnessPage }
 }
 
 export default Routes;
